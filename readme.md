@@ -1,4 +1,4 @@
-#php-script-plugin-temaplte
+#php-script-plugin-template
 
 Template for a php based up.time plugin.
 
