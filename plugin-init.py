@@ -39,11 +39,6 @@ if (os.path.exists(old_xml_path)):
 
 if (os.path.exists(new_xml_path)):
     print (new_xml_path + " exists")
-    if (os.remove(old_xml_path)):
-        print ("Removed old xml file: " + old_xml_path)
-    else:
-        print ("Unable to remove old xml: " + old_xml_path)
-        print ("Try deleting file manually")
 else:
     print (new_xml_path +"does not exist?")
 
